@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>UP&DOWN GAME</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1>THIS IS UP&DOWN GAME</h1>
+      <div id="rule">
+        <h2>Rule</h2>
+        <h3>- Computer choose a random number</h3>
+        <h3>
+          - You can put a number and find the number that the computer picked
+        </h3>
+        <h3>- The number is between 1 and 100</h3>
+      </div>
+      <div id="result-area" class="hidden"></div>
+      <div id="chance-area">Chance:3</div>
+      <div id="history-area"></div>
+      <div id="correct-answer"></div>
+      <img
+        id="result-img"
+        src="https://media.tenor.com/Kccs8vZdVs0AAAAj/confused-kawaii.gif"
+      />
+      <form class="input">
+        <input id="user-input" type="number" placeholder="Here put a number" />
+        <button id="play-button">play!</button>
+        <button id="reset-button">reset!</button>
+      </form>
+    </div>
+    <img
+      class="background"
+      src="https://www.pockettactics.com/wp-content/sites/pockettactics/2023/01/simple-fan-art-kirby-ug1nabhcbvpkz5z7.jpg"
+    />
+    <script src="js/index.js"></script>
+  </body>
+</html>

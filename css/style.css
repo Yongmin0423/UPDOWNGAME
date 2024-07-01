@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "DungGeunMo";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #result-img {
+    display: none;
+  }
+
+  .main h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  #rule {
+    font-size: 20px;
+  }
+
+  #rule h2,
+  #rule h3 {
+    margin: 10px;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input button {
+    margin-top: 10px;
+  }
+}
+
+body {
+  font-family: "DungGeunMo";
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 0px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 80%;
+}
+
+#rule h2 {
+  font-size: 45px;
+}
+
+#rule h3 {
+  font-size: 20px;
+}
+
+#user-input {
+  font-family: "DungGeunMo";
+}
+
+#play-button {
+  font-family: "DungGeunMo";
+}
+
+#reset-button {
+  font-family: "DungGeunMo";
+}
+
+#result-area {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#chance-area {
+  font-size: 30px;
+}
+
+#history-area {
+  font-size: 25px;
+}
+
+#correct-answer {
+  color: black;
+}
+
+#result-img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#user-input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 20px;
+}
+
+#user-input:focus {
+  outline: none;
+}
+
+#user-input::placeholder {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  #result-img {
+    display: none;
+  }
+
+  .main h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  #rule h2,
+  #rule h3 {
+    margin: 10px;
+  }
+
+  .input button {
+    margin-top: 10px;
+  }
+}
+
+.hidden {
+  display: none;
+}
